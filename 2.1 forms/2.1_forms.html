@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <main>
+      <form action="www/google.com" id="form1">
+        <h1>Ctreat an account</h1>
+        <section>
+          <label for="email">Email</label><br />
+          <input type="text" id="email" name="email" />
+        </section>
+        <br />
+        <section>
+          <label for="password">password</label><br />
+          <input type="password" name="password" id="password" />
+        </section>
+        <br />
+        <section>
+          <label for="age">age</label><br />
+          <select name="age" id="age">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value="1">one</option>
+            <option value="2">two</option>
+            <option value="3">three</option>
+            <option value="4">four</option>
+            <option value="5">five</option>
+            <option value="6">six</option>
+            <option value="7">seven</option>
+            <option value="8">eight</option>
+            <option value="9s">nine</option>
+          </select>
+        </section>
+        <br />
+        <section>
+          <label for="area">Tell us a little about yourself</label><br />
+          <textarea name="area" id="area" cols="55" rows="8"></textarea>
+        </section>
+        <br />
+        <section>
+          <input type="checkbox" name="check" id="check" />
+          <label for="check"
+            >I agree to the <a href="google.com">terms of service</a></label
+          >
+        </section>
+        <br />
+        <section>
+          <button type="submit" value="submit" form="form1">Sign up</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
