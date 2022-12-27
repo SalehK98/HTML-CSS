@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  background-color: skyblue;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#nav {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 30px;
+}
+
+#nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.containter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #133337;
+  /* margin: 100px; */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.primary-header {
+  text-align: center;
+  color: beige;
+}
+
+.visual {
+  text-align: center;
+}
+
+main {
+  height: 100%;
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+  background-color: coral;
+  width: 300px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#description {
+  float: left;
+  width: 45%;
+}
+
+#contact_info {
+  float: right;
+  width: 45%;
+  height: 100%;
+}
+
+#contact_list {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;x */
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}

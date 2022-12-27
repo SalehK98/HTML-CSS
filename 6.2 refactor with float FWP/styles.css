@@ -6,10 +6,24 @@ body {
   background-color: skyblue;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   flex-direction: column;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.containter {
+  background-color: #133337;
+  /* margin: 100px; */
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .primary-header {
+  text-align: center;
   color: beige;
+}
+
+.visual {
+  text-align: center;
 }
 
 .card {
@@ -20,6 +34,16 @@ body {
   border: none;
   border-radius: 3px;
   box-shadow: 5px 10px 8px #888888;
+}
+
+#description {
+  float: left;
+  width: 45%;
+}
+
+#contact_info {
+  float: right;
+  width: 45%;
 }
 
 #contact_list {
