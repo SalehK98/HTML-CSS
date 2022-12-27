@@ -1,0 +1,28 @@
+/* body {
+  display: flex;
+} */
+
+section {
+  /* display: flex;
+  flex-wrap: wrap; */
+  background-color: coral;
+  width: 300px;
+  border: none;
+}
+
+section#main_box {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+section img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  margin-bottom: 2px;
+}
+
+h1,
+p,
+a {
+  margin: 1px;
+}

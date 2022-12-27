@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: skyblue;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  flex-direction: column;
+}
+
+.primary-header {
+  color: beige;
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+  background-color: coral;
+  width: 300px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#contact_list {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;x */
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
