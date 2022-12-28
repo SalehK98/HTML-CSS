@@ -1,0 +1,56 @@
+* {
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.container {
+  background-color: lightgreen;
+  max-width: 1000px;
+  height: 600px;
+  margin: auto;
+  position: relative;
+}
+
+.box1 {
+  background-color: brown;
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 10px;
+}
+
+.box2 {
+  background-color: darkcyan;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 170px;
+  top: 200px;
+  padding: 10px;
+}
+
+.box3 {
+  background-color: hotpink;
+  width: 700px;
+  height: 250px;
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  padding: 10px;
+}
+
+.box4 {
+  background-color: salmon;
+  width: 100px;
+  height: 570px;
+  position: absolute;
+  left: 580px;
+  top: 15px;
+  padding: 10px;
+}

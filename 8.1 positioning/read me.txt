@@ -1,0 +1,4 @@
+position absolute proprety looks for the first relative parent,
+and keeps looking up the tree until it reaches the body. 
+since outter div is not relative the inner div us being absolute to the main body.
+by changing the position proprety of the outter div to relative it will fix the problem.
