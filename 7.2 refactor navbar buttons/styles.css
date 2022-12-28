@@ -1,35 +1,55 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+* {
+  margin: 0;
+}
+
 body {
   background-color: skyblue;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  max-width: 1000px;
-  margin: auto;
 }
 
 #nav {
-  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
   background-color: #333;
-  margin-bottom: 30px;
+  position: sticky;
+  width: 100%;
+  font-size: 18px;
 }
 
-#nav a {
+#nav li {
   float: left;
-  display: block;
-  color: #f2f2f2;
   text-align: center;
-  padding: 14px;
+}
+
+#nav li a {
+  color: #f2f2f2;
+  display: block;
+  padding: 10px 20px;
   text-decoration: none;
+  filter: brightness(1);
+}
+
+#nav li a:hover {
+  color: #f4f4f4;
+  filter: brightness(0.5);
+}
+
+main {
+  height: 100%;
 }
 
 .containter {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 30px 325px;
   background-color: #133337;
-  /* margin: 100px; */
   padding: 20px;
   border-radius: 15px;
+  width: 700px;
 }
 
 .primary-header {
@@ -39,10 +59,6 @@ body {
 
 .visual {
   text-align: center;
-}
-
-main {
-  height: 100%;
 }
 
 .card {
@@ -69,7 +85,6 @@ main {
 #contact_list {
   display: flex;
   flex-direction: row;
-  /* align-items: center;x */
   justify-content: space-around;
 }
 
