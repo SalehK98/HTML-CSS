@@ -4,7 +4,7 @@
 
 body {
   /* background-color: black; */
-  height: 600px;
+  height: 550px;
 }
 
 .container {
@@ -31,28 +31,32 @@ header {
   background-color: yellow;
   padding: 10px;
   margin: 5px;
+  border-radius: 5px;
 }
 
 #main_content {
   background-color: purple;
   float: left;
-  width: 40%;
+  width: 57%;
   height: 100%;
   padding: 10px;
   margin: 5px;
+  border-radius: 5px;
 }
 
 #side_content {
   background-color: green;
   float: right;
-  width: 57%;
+  width: 40%;
   height: 100%;
   margin: 5px;
   padding: 10px;
+  border-radius: 5px;
 }
 
 footer {
   background-color: blue;
   margin: 5px;
   padding: 10px;
+  border-radius: 5px;
 }
