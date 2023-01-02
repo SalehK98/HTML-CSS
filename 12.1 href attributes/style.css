@@ -1,0 +1,14 @@
+a {
+  color: seagreen;
+  text-decoration: none;
+}
+
+a::before {
+  color: aqua;
+  content: " Please visit this \00a0";
+}
+
+a::after {
+  color: aqua;
+  content: "\00a0 for more information";
+}

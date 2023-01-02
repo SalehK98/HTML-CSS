@@ -1,0 +1,35 @@
+body {
+  background-color: darkcyan;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  font-size: 1.2rem;
+}
+
+section span {
+  color: navy;
+}
+
+/* section span[tooltip] {
+} */
+
+section span[tooltip] {
+  position: relative;
+  border-bottom: dotted 1px #000;
+}
+
+section span[tooltip]:hover::after {
+  content: attr(tooltip);
+  background-color: yellow;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  top: 1em;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 2;
+}
