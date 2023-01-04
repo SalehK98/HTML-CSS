@@ -1,0 +1,49 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  /* margin-left: 500px; */
+}
+
+.box::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  /* margin-left: 500px; */
+  position: absolute;
+  left: -192px;
+  background-color: coral;
+  transform: translate(200px);
+  transition: transform 5s ease-in-out;
+}
+
+.box:hover::before {
+  overflow: hidden;
+  transform: translate(0px);
+}
+
+/* better solution  */
+
+/* .box {
+  position: relative;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  left: 200px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: purple;
+  /* z-index: 2; */
+/* transition: all 2s ease-in;
+}
+.box:hover::before {
+  width: 100%;
+  left: 0;
+/* } */

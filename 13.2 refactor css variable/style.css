@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+:root {
+  --primary_color: beige;
+  --card_bg_color: coral;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: skyblue;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.containter {
+  background-color: #133337;
+  /* margin: 100px; */
+  padding: 20px;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.primary-header {
+  text-align: center;
+  color: var(--primary_color);
+}
+
+.visual {
+  text-align: center;
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+  background-color: var(--card_bg_color);
+  width: 300px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#description {
+  float: left;
+  width: 45%;
+}
+
+#contact_info {
+  float: right;
+  width: 45%;
+}
+
+#contact_list {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+@media screen and (max-width: 280px) {
+  img {
+    width: 200px;
+  }
+  #contact_info,
+  #description {
+    float: none;
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #contact_info,
+  #description {
+    float: none;
+    margin: 30px auto;
+    width: 270px;
+  }
+}
